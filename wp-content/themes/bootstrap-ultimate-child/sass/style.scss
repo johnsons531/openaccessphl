@@ -1,0 +1,290 @@
+/*
+Theme Name: Bootstrap Ultimate Child
+Theme URI: http://eodepo.com/bootstrap-ultimate
+Description: The ultimate responsive WP theme; cures your common Bootstrap problems such as nav-menu, pagination etc.Built for speed, both loading-wise & development-wise.Comes packed with distinctive features such as adjustable layout, automatic Google Fonts update, sleek options panel, sub-themes and many built-in extensions; lightbox, font-icons etc.Optional layout per post/page.In short, you can have whatever you want, however you want.
+Template: bootstrap-ultimate
+Version: 1.4.2.1
+Author: Emin Özlem
+Author URI: http://eodepo.com
+Tags: responsive-layout, black, white, one-column, two-columns, fluid-layout, custom-background, custom-colors, custom-menu, full-width-template, theme-options, translation-ready,left-sidebar,right-sidebar
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+
+@import url('../bootstrap-ultimate/style.css');
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+$font-sans: 'Lato', 'Helvetica', sans-serif;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 900;
+
+.font-weight-light { font-weight: $font-weight-light; }
+.font-weight-regular { font-weight: $font-weight-regular; }
+.font-weight-bold { font-weight: $font-weight-bold; }
+.font-weight-extra-bold { font-weight: $font-weight-extra-bold; }
+
+$light-blue: rgba(98,117,157,1);
+$medium-light-blue: rgba(76,91,125,1);
+$medium-blue: rgba(57,69,95,1);
+$dark-blue: rgba(19,17,38,1);
+
+$light-gold: rgba(255,255,157,1);
+$medium-light-gold: rgba(253,217,134,1);
+$medium-gold: rgba(255,208,97,1);
+$dark-gold: rgba(254,192,15,1);
+
+$light-grey: rgba(241,242,242,1);
+$medium-light-grey: rgba(209,211,212,1);
+$medium-grey: rgba(147,149,152,1);
+$dark-grey: rgba(65,64,66,1);
+$lighter-dark-grey: rgba(65,64,66,.8);
+
+/* Standard Element Definitions */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $medium-grey;
+  font-family: $font-sans;
+  font-weight: $font-weight-light;
+  color: $medium-grey;
+}
+
+h1, h2 {
+  font-weight: $font-weight-extra-bold;
+}
+
+h3, h4 {
+  font-weight: $font-weight-bold;
+}
+
+h5, h6 {
+  font-weight: $font-weight-regular;
+}
+
+p {
+  padding: 5px;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  font-weight: $font-weight-regular;
+  &:link { color: $dark-blue; }
+  &:hover { color: $dark-gold; }
+}
+
+/* Classes for Content Categories */
+.headline {
+  font-weight: $font-weight-bold;
+  font-size: 21px;
+}
+
+.subheader {
+  font-weight: $font-weight-regular;
+  font-size: 16px;
+}
+
+.copy {
+  font-weight: $font-weight-light;
+  font-size: 16px;
+}
+
+.notation {
+  font-weight: $font-weight-regular;
+  font-size: 13px;
+}
+
+/* Mixins for Light Background */
+.light-background {
+  background-color: $light-grey;
+}
+
+.headline-light {
+  @extend .headline;
+  @extend .light-background;
+  color: $dark-blue;
+}
+
+.subheader-light {
+  @extend .subheader;
+  @extend .light-background;
+  color: $dark-grey;
+}
+
+.copy-light {
+  @extend .copy;
+  @extend .light-background;
+  color: $dark-grey;
+
+  // a {
+  //   font-weight: $font-weight-regular;
+  //   &:link { color: $dark-blue; }
+  //   &:hover { color: $dark-gold; }
+  // }
+}
+
+.notation-light {
+  @extend .notation;
+  @extend .light-background;
+  color: $medium-blue;
+
+  // a {
+  //   &:link { color: $dark-blue; }
+  //   &:hover { color: $dark-gold; }
+  // }
+}
+
+/* Mixins for Dark Background */
+.dark-background {
+  background-color: $dark-grey;
+}
+
+.headline-dark {
+  @extend .headline;
+  @extend .dark-background;
+  color: $dark-gold;
+}
+
+.subheader-dark {
+  @extend .subheader;
+  @extend .dark-background;
+  color: $dark-gold;
+}
+
+.copy-dark {
+  @extend .copy;
+  @extend .dark-background;
+  color: $light-grey;
+
+  a, a.rss-widget {
+    // font-weight: $font-weight-regular;
+    &:link { color: $light-grey; }
+    &:visited { color: $light-grey; }
+    &:hover { color: $dark-gold; }
+  }
+}
+
+.notation-dark {
+  @extend .notation;
+  @extend .dark-background;
+  color: $light-blue;
+
+  a {
+    &:link { color: $light-grey; }
+    &:hover { color: $dark-gold; }
+  }
+}
+
+/* General Classes */
+.all-caps {
+  text-transform: uppercase;
+}
+
+/* Sections */
+
+/* Style Guideline Sections */
+.main-content {
+  width: 770px;
+  margin: 0 auto;
+}
+
+/* Wordpress Bootstrap Theme Sections */
+.page-header a {
+  @extend .headline-light;
+}
+
+.jumbotron {
+  padding: 0;
+  margin: 0;
+  p {
+    padding: 0;
+  }
+}
+
+.post-content {
+  @extend .copy-light;
+}
+
+.widgettitle {
+  @extend .copy-dark;
+  @extend .all-caps;
+  padding: 10px;
+}
+
+#content .rss-widget img {
+  display: none;
+}
+
+.cat-item {
+  @extend .subheader-light;
+}
+
+.navbar {
+  @extend .copy-dark;
+  border: none;
+  margin-bottom: 0px;
+}
+
+.sub-menu {
+  @extend .copy-dark;
+}
+
+#wrap {
+  background-color: $lighter-dark-grey;
+}
+
+#maincnot {
+  @extend .light-background;
+}
+
+#sidebar1, #sidebar2 {
+  .widget ul {
+  position: relative;
+  left: -30px;
+  }
+}
+
+#comm_submit {
+  margin-bottom: 15px;
+}
+
+hr {
+  @extend .dark-background;
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer {
+  @extend .dark-background;
+
+  .widgettitle {
+    @extend .headline-dark;
+    @extend .all-caps;
+  }
+
+  .menu-item {
+    @extend .copy-dark;
+    text-transform: none;
+  }
+
+  .textwidget {
+    @extend .subheader-dark;
+    margin-top: 20px;
+  }
+
+  table {
+    @extend .copy-dark;
+  }
+
+  th {
+    padding: 0 10px;
+  }
+}
+
+a.logo {
+  max-width: none;
+}

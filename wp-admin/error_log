@@ -1,0 +1,37 @@
+[19-Jan-2014 13:37:52] PHP Warning:  array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object in /home4/openacc3/public_html/test_site/wordpress/wp-content/themes/bootstrap-ultimate/functions.php on line 1508
+[04-Apr-2014 09:45:11] PHP Warning:  require_once(/home4/openacc3/public_html/test_site/wordpress/wp-content/themes/bootstrap-ultimate/panel/of/options-framework.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/openacc3/public_html/test_site/wordpress/wp-content/themes/bootstrap-ultimate/panel/options-panel.php on line 12
+[04-Apr-2014 09:45:11] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home4/openacc3/public_html/test_site/wordpress/wp-content/themes/bootstrap-ultimate/panel/of/options-framework.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/openacc3/public_html/test_site/wordpress/wp-content/themes/bootstrap-ultimate/panel/options-panel.php on line 12
+[04-Apr-2014 10:34:02] PHP Warning:  Invalid argument supplied for foreach() in /home4/openacc3/public_html/wp-content/plugins/google-calendar-events/uninstall.php on line 8
+[04-Apr-2014 10:38:52] Postie: Checking for mail manually
+[04-Apr-2014 10:38:52] Postie: Starting mail fetch
+[04-Apr-2014 10:38:52] Postie: Postie is in /home4/openacc3/public_html/wp-content/plugins/postie
+[04-Apr-2014 10:38:52] Postie: Cron: On
+[04-Apr-2014 10:38:52] Postie: Alternate Cron: Off
+[04-Apr-2014 10:38:52] Postie: iconv: installed
+[04-Apr-2014 10:38:52] Postie: imap: installed
+[04-Apr-2014 10:38:52] Postie: mbstring: installed
+[04-Apr-2014 10:38:52] Postie: There are 1 messages to process
+[04-Apr-2014 10:38:55] Postie: Mail fetch complete, 1 emails
+[04-Apr-2014 10:51:22] PHP Warning:  move_uploaded_file(/home4/openacc3/public_html/wp-content/uploads/2014/03/oap-hero-unit.png) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/upload.php on line 99
+[04-Apr-2014 10:51:22] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/var/tmp/phpmdxKZl' to '/home4/openacc3/public_html/wp-content/uploads/2014/03/oap-hero-unit.png' in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/upload.php on line 99
+[04-Apr-2014 10:51:22] PHP Warning:  chmod() [<a href='function.chmod'>function.chmod</a>]: No such file or directory in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/upload.php on line 102
+[04-Apr-2014 10:51:24] PHP Warning:  filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for /home4/openacc3/public_html/wp-content/uploads/2014/03/oap-hero-unit.png in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/enable-media-replace.php on line 144
+[04-Apr-2014 10:51:51] PHP Warning:  filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for /home4/openacc3/public_html/wp-content/uploads/2014/03/oap-hero-unit.png in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/enable-media-replace.php on line 144
+[04-Apr-2014 10:52:41] PHP Warning:  move_uploaded_file(/home4/openacc3/public_html/wp-content/uploads/2014/03/oap-hero-unit.png) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/upload.php on line 99
+[04-Apr-2014 10:52:41] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/var/tmp/phpy8iRYu' to '/home4/openacc3/public_html/wp-content/uploads/2014/03/oap-hero-unit.png' in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/upload.php on line 99
+[04-Apr-2014 10:52:41] PHP Warning:  chmod() [<a href='function.chmod'>function.chmod</a>]: No such file or directory in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/upload.php on line 102
+[04-Apr-2014 10:52:44] PHP Warning:  filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for /home4/openacc3/public_html/wp-content/uploads/2014/03/oap-hero-unit.png in /home4/openacc3/public_html/wp-content/plugins/enable-media-replace/enable-media-replace.php on line 144
+[19-Apr-2014 10:58:36] PHP Warning:  array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object in /home4/openacc3/public_html/wp-content/themes/bootstrap-ultimate/functions.php on line 1389
+[19-Apr-2014 10:58:36] PHP Warning:  array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object in /home4/openacc3/public_html/wp-content/themes/bootstrap-ultimate/functions.php on line 1389
+[24-Apr-2014 00:47:16] PHP Fatal error:  Call to undefined method WP_Error::get_item_quantity() in /home4/openacc3/public_html/wp-content/themes/bootstrap-ultimate/lib/bones/admin.php on line 71
+[29-Apr-2014 10:56:03] Postie: Checking for mail manually
+[29-Apr-2014 10:56:04] Postie: Starting mail fetch
+[29-Apr-2014 10:56:04] Postie: Postie is in /home4/openacc3/public_html/wp-content/plugins/postie
+[29-Apr-2014 10:56:04] Postie: Cron: On
+[29-Apr-2014 10:56:04] Postie: Alternate Cron: Off
+[29-Apr-2014 10:56:04] Postie: iconv: installed
+[29-Apr-2014 10:56:04] Postie: imap: installed
+[29-Apr-2014 10:56:04] Postie: mbstring: installed
+[29-Apr-2014 10:56:04] Postie: There are 1 messages to process
+[29-Apr-2014 10:56:08] Postie: Mail fetch complete, 1 emails
+[04-May-2014 23:12:49] PHP Fatal error:  Call to undefined method WP_Error::get_item_quantity() in /home4/openacc3/public_html/wp-content/themes/bootstrap-ultimate/lib/bones/admin.php on line 71

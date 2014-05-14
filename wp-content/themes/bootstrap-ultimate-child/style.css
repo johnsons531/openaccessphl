@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/*
+Theme Name: Bootstrap Ultimate Child
+Theme URI: http://eodepo.com/bootstrap-ultimate
+Description: The ultimate responsive WP theme; cures your common Bootstrap problems such as nav-menu, pagination etc.Built for speed, both loading-wise & development-wise.Comes packed with distinctive features such as adjustable layout, automatic Google Fonts update, sleek options panel, sub-themes and many built-in extensions; lightbox, font-icons etc.Optional layout per post/page.In short, you can have whatever you want, however you want.
+Template: bootstrap-ultimate
+Version: 1.4.2.1
+Author: Emin Özlem
+Author URI: http://eodepo.com
+Tags: responsive-layout, black, white, one-column, two-columns, fluid-layout, custom-background, custom-colors, custom-menu, full-width-template, theme-options, translation-ready,left-sidebar,right-sidebar
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+@import url("../bootstrap-ultimate/style.css");
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+/* line 23, sass/style.scss */
+.font-weight-light {
+  font-weight: 300;
+}
+
+/* line 24, sass/style.scss */
+.font-weight-regular {
+  font-weight: 400;
+}
+
+/* line 25, sass/style.scss */
+.font-weight-bold {
+  font-weight: 700;
+}
+
+/* line 26, sass/style.scss */
+.font-weight-extra-bold {
+  font-weight: 900;
+}
+
+/* Standard Element Definitions */
+/* line 45, sass/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #939598;
+  font-family: "Lato", "Helvetica", sans-serif;
+  font-weight: 300;
+  color: #939598;
+}
+
+/* line 54, sass/style.scss */
+h1, h2 {
+  font-weight: 900;
+}
+
+/* line 58, sass/style.scss */
+h3, h4 {
+  font-weight: 700;
+}
+
+/* line 62, sass/style.scss */
+h5, h6 {
+  font-weight: 400;
+}
+
+/* line 66, sass/style.scss */
+p {
+  padding: 5px;
+}
+
+/* line 70, sass/style.scss */
+ul, ol {
+  list-style-type: none;
+}
+
+/* line 74, sass/style.scss */
+a {
+  font-weight: 400;
+}
+/* line 76, sass/style.scss */
+a:link {
+  color: #131126;
+}
+/* line 77, sass/style.scss */
+a:hover {
+  color: #fec00f;
+}
+
+/* Classes for Content Categories */
+/* line 81, sass/style.scss */
+.headline, .headline-light, .page-header a, .headline-dark, #footer .widgettitle {
+  font-weight: 700;
+  font-size: 21px;
+}
+
+/* line 86, sass/style.scss */
+.subheader, .subheader-light, .cat-item, .subheader-dark, #footer .textwidget {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* line 91, sass/style.scss */
+.copy, .copy-light, .post-content, .copy-dark, .widgettitle, .navbar, .sub-menu, #footer .menu-item, #footer table {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* line 96, sass/style.scss */
+.notation, .notation-light, .notation-dark {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+/* Mixins for Light Background */
+/* line 102, sass/style.scss */
+.light-background, .headline-light, .page-header a, .subheader-light, .cat-item, .copy-light, .post-content, .notation-light, #maincnot {
+  background-color: #f1f2f2;
+}
+
+/* line 106, sass/style.scss */
+.headline-light, .page-header a {
+  color: #131126;
+}
+
+/* line 112, sass/style.scss */
+.subheader-light, .cat-item {
+  color: #414042;
+}
+
+/* line 118, sass/style.scss */
+.copy-light, .post-content {
+  color: #414042;
+}
+
+/* line 130, sass/style.scss */
+.notation-light {
+  color: #39455f;
+}
+
+/* Mixins for Dark Background */
+/* line 142, sass/style.scss */
+.dark-background, .headline-dark, #footer .widgettitle, .subheader-dark, #footer .textwidget, .copy-dark, .widgettitle, .navbar, .sub-menu, #footer .menu-item, #footer table, .notation-dark, hr, #footer {
+  background-color: #414042;
+}
+
+/* line 146, sass/style.scss */
+.headline-dark, #footer .widgettitle {
+  color: #fec00f;
+}
+
+/* line 152, sass/style.scss */
+.subheader-dark, #footer .textwidget {
+  color: #fec00f;
+}
+
+/* line 158, sass/style.scss */
+.copy-dark, .widgettitle, .navbar, .sub-menu, #footer .menu-item, #footer table {
+  color: #f1f2f2;
+}
+/* line 165, sass/style.scss */
+.copy-dark a:link, .widgettitle a:link, .navbar a:link, .sub-menu a:link, #footer .menu-item a:link, #footer table a:link, .copy-dark a.rss-widget:link, .widgettitle a.rss-widget:link, .navbar a.rss-widget:link, .sub-menu a.rss-widget:link, #footer .menu-item a.rss-widget:link, #footer table a.rss-widget:link {
+  color: #f1f2f2;
+}
+/* line 166, sass/style.scss */
+.copy-dark a:visited, .widgettitle a:visited, .navbar a:visited, .sub-menu a:visited, #footer .menu-item a:visited, #footer table a:visited, .copy-dark a.rss-widget:visited, .widgettitle a.rss-widget:visited, .navbar a.rss-widget:visited, .sub-menu a.rss-widget:visited, #footer .menu-item a.rss-widget:visited, #footer table a.rss-widget:visited {
+  color: #f1f2f2;
+}
+/* line 167, sass/style.scss */
+.copy-dark a:hover, .widgettitle a:hover, .navbar a:hover, .sub-menu a:hover, #footer .menu-item a:hover, #footer table a:hover, .copy-dark a.rss-widget:hover, .widgettitle a.rss-widget:hover, .navbar a.rss-widget:hover, .sub-menu a.rss-widget:hover, #footer .menu-item a.rss-widget:hover, #footer table a.rss-widget:hover {
+  color: #fec00f;
+}
+
+/* line 171, sass/style.scss */
+.notation-dark {
+  color: #62759d;
+}
+/* line 177, sass/style.scss */
+.notation-dark a:link {
+  color: #f1f2f2;
+}
+/* line 178, sass/style.scss */
+.notation-dark a:hover {
+  color: #fec00f;
+}
+
+/* General Classes */
+/* line 183, sass/style.scss */
+.all-caps, .widgettitle, #footer .widgettitle {
+  text-transform: uppercase;
+}
+
+/* Sections */
+/* Style Guideline Sections */
+/* line 190, sass/style.scss */
+.main-content {
+  width: 770px;
+  margin: 0 auto;
+}
+
+/* Wordpress Bootstrap Theme Sections */
+/* line 200, sass/style.scss */
+.jumbotron {
+  padding: 0;
+  margin: 0;
+}
+/* line 203, sass/style.scss */
+.jumbotron p {
+  padding: 0;
+}
+
+/* line 212, sass/style.scss */
+.widgettitle {
+  padding: 10px;
+}
+
+/* line 218, sass/style.scss */
+#content .rss-widget img {
+  display: none;
+}
+
+/* line 226, sass/style.scss */
+.navbar {
+  border: none;
+  margin-bottom: 0px;
+}
+
+/* line 236, sass/style.scss */
+#wrap {
+  background-color: rgba(65, 64, 66, 0.8);
+}
+
+/* line 245, sass/style.scss */
+#sidebar1 .widget ul, #sidebar2 .widget ul {
+  position: relative;
+  left: -30px;
+}
+
+/* line 251, sass/style.scss */
+#comm_submit {
+  margin-bottom: 15px;
+}
+
+/* line 255, sass/style.scss */
+hr {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 269, sass/style.scss */
+#footer .menu-item {
+  text-transform: none;
+}
+/* line 274, sass/style.scss */
+#footer .textwidget {
+  margin-top: 20px;
+}
+/* line 283, sass/style.scss */
+#footer th {
+  padding: 0 10px;
+}
+
+/* line 288, sass/style.scss */
+a.logo {
+  max-width: none;
+}
